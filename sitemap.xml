@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://shuitian23-bot.github.io/bagledger-support/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shuitian23-bot.github.io/bagledger-support/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://shuitian23-bot.github.io/bagledger-support/zh.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shuitian23-bot.github.io/bagledger-support/" />
+  </url>
+  <url>
+    <loc>https://shuitian23-bot.github.io/bagledger-support/zh.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shuitian23-bot.github.io/bagledger-support/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://shuitian23-bot.github.io/bagledger-support/zh.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shuitian23-bot.github.io/bagledger-support/" />
+  </url>
+  <url>
+    <loc>https://shuitian23-bot.github.io/bagledger-support/privacy.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shuitian23-bot.github.io/bagledger-support/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://shuitian23-bot.github.io/bagledger-support/privacy-zh.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shuitian23-bot.github.io/bagledger-support/privacy.html" />
+  </url>
+  <url>
+    <loc>https://shuitian23-bot.github.io/bagledger-support/privacy-zh.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shuitian23-bot.github.io/bagledger-support/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://shuitian23-bot.github.io/bagledger-support/privacy-zh.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shuitian23-bot.github.io/bagledger-support/privacy.html" />
+  </url>
+</urlset>

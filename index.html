@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BagLedger — Packing Lists &amp; Bag Weight Records</title>
+<meta name="description" content="Plan bags offline, keep unknown weights visible, preview a single move, record manual weighings, and separate outbound and return packing checks.">
+<meta name="theme-color" content="#163f34">
+<link rel="canonical" href="https://shuitian23-bot.github.io/bagledger-support/">
+<link rel="alternate" hreflang="en" href="https://shuitian23-bot.github.io/bagledger-support/">
+<link rel="alternate" hreflang="zh-Hans" href="https://shuitian23-bot.github.io/bagledger-support/zh.html">
+<link rel="alternate" hreflang="x-default" href="https://shuitian23-bot.github.io/bagledger-support/">
+<link rel="stylesheet" href="styles.css">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="BagLedger">
+<meta property="og:title" content="BagLedger — Packing Lists &amp; Bag Weight Records">
+<meta property="og:description" content="Plan bags offline, keep unknown weights visible, preview a single move, record manual weighings, and separate outbound and return packing checks.">
+<meta property="og:url" content="https://shuitian23-bot.github.io/bagledger-support/">
+<meta property="og:locale" content="en_US">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://shuitian23-bot.github.io/bagledger-support/#page",
+      "url": "https://shuitian23-bot.github.io/bagledger-support/",
+      "name": "BagLedger — Packing Lists & Bag Weight Records",
+      "description": "Plan bags offline, keep unknown weights visible, preview a single move, record manual weighings, and separate outbound and return packing checks.",
+      "inLanguage": "en",
+      "about": {
+        "@id": "https://shuitian23-bot.github.io/bagledger-support/#app"
+      }
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://shuitian23-bot.github.io/bagledger-support/#app",
+      "name": "BagLedger",
+      "applicationCategory": "TravelApplication",
+      "operatingSystem": "iOS 17 or later",
+      "availableOnDevice": [
+        "iPhone",
+        "iPad"
+      ],
+      "inLanguage": [
+        "en",
+        "zh-Hans"
+      ],
+      "description": "A packing list with a record of the decisions behind it. Arrange items across bags, compare list estimates with your scale readings, and start the return journey with a separate check.",
+      "url": "https://shuitian23-bot.github.io/bagledger-support/"
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://shuitian23-bot.github.io/bagledger-support/#how-to",
+      "name": "How to prepare a trip in BagLedger",
+      "description": "Start with an empty trip or copy items from your own kit. Work from the list to the final weighing, then keep the return check separate.",
+      "inLanguage": "en",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "name": "Create the trip and bags",
+          "text": "Name a trip, add your bags, and set a personal weight target for each. Enter empty-bag weights when known. These targets are your own planning limits, not airline rules."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "name": "Build and assign the list",
+          "text": "Add each item line with a quantity and an optional weight per item, then assign it to a bag. A missing item or empty-bag weight remains unknown. Items copied from your kit become independent trip entries."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "name": "Review one possible move",
+          "text": "Once all weights are known and every item is assigned, request a single-move preview. It can move one whole, unlocked, unchecked item line from a bag above its target to another bag without putting that bag above its target. Review the before-and-after estimates, then apply or cancel."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 4,
+          "name": "Pack first, then record the scale",
+          "text": "Check each line only when its full quantity is packed or reviewed. Weigh the bag on your own scale and enter the reading manually. Later plan changes mark earlier readings out of date, so record the final weighing after packing checks."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 5,
+          "name": "Keep the history and take a copy",
+          "text": "Confirm the start of return review to freeze the complete outbound record. The return plan starts with checks cleared and no weighings. Export a readable text checklist or a JSON trip backup; import a valid JSON file through a preview to add a new trip without replacing an existing one."
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://shuitian23-bot.github.io/bagledger-support/#faq",
+      "inLanguage": "en",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Does BagLedger weigh a bag or check airline limits?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. You enter estimated item and empty-bag weights, set your own targets, and manually record readings from your own scale. BagLedger does not measure weight, provide airline policy checks, or guarantee acceptance by a carrier."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens when a weight is unknown?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Unknown item or empty-bag weights stay unknown. The bag shows the known subtotal and missing-weight information instead of a complete estimate. Missing weights are not treated as zero or as confirmation that the bag meets its target."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is the suggested move the best packing plan?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. It is one feasible adjustment based on complete list estimates and assigned items. It moves only a whole item line that is unlocked and unchecked in the current stage, reduces the total weight above your targets, and keeps the destination bag within its target. If none is found, that does not prove that no better arrangement exists."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I cancel or undo a move?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Canceling the preview leaves the plan unchanged. You can undo only the most recently applied move while its undo is still valid. Another edit, a stage change, or restarting the app clears that undo. Editing after a preview also requires a new preview."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why is a scale reading marked out of date?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A reading belongs to the plan as it was when recorded. A later change to the plan, packing checks, or locks marks it out of date. Its value and time remain visible, but it no longer counts as a current check. Finish packing checks and then weigh again."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does the return check change my outbound history?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. After you confirm the start of return review, BagLedger keeps a read-only snapshot of the complete outbound plan. The separate return plan begins with packing checks cleared and no scale readings. Later return edits do not change that snapshot."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need an account, and what does sharing include?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No account is required. Trip records, your kit, and file import and export are handled on your device, with no ads or remote analytics in the app. Sharing a text checklist or JSON backup sends trip and item data to the destination you select. There is no cloud sync or live collaboration."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What can I keep, export, and restore?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can keep up to 20 trips, with 8 bags and 200 item lines per stage. Separately, your kit can hold up to 200 items. Each line has a quantity of 1 to 100; checking it confirms the whole quantity. Text export is for reading or handoff. A valid BagLedger JSON backup, up to 2 MiB, can be previewed and imported as a new trip, including outbound history when present."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="wrap masthead"><a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true"></span>BagLedger</a>
+<nav aria-label="Main navigation"><ul class="nav"><li><a href="index.html#how-to">The process</a></li><li><a href="index.html#weights">Weight records</a></li><li><a href="index.html#faq">Questions</a></li><li><a href="index.html#support">Support</a></li><li><a class="language" href="zh.html" lang="zh-Hans" hreflang="zh-Hans">简体中文</a></li></ul></nav></header>
+<main id="main" class="wrap">
+<section class="opening" aria-labelledby="page-title"><div><p class="eyebrow">OFFLINE PACKING / iPHONE + iPAD</p><h1 id="page-title">Know what goes. Record what weighs.</h1><p class="lead">A packing list with a record of the decisions behind it. Arrange items across bags, compare list estimates with your scale readings, and start the return journey with a separate check.</p><p class="release-status" id="release-status">Preparing for release</p></div><aside class="intro-note"><span class="large-index" aria-hidden="true">01/02</span><h2>One trip. Two packing checks.</h2><p>Keep the outbound record. Recheck the return. Your lists and weight records stay on your device unless you choose to share them.</p></aside></section>
+<section class="section" id="how-to" aria-labelledby="how-to-title"><div class="section-heading"><p class="section-index">01 / The process</p><div><h2 id="how-to-title">How to prepare a trip in BagLedger</h2><p>Start with an empty trip or copy items from your own kit. Work from the list to the final weighing, then keep the return check separate.</p></div></div><ol class="journey"><li data-howto-step="1"><span class="step-no" aria-hidden="true">01</span><div><h3>Create the trip and bags</h3><p>Name a trip, add your bags, and set a personal weight target for each. Enter empty-bag weights when known. These targets are your own planning limits, not airline rules.</p></div></li>
+<li data-howto-step="2"><span class="step-no" aria-hidden="true">02</span><div><h3>Build and assign the list</h3><p>Add each item line with a quantity and an optional weight per item, then assign it to a bag. A missing item or empty-bag weight remains unknown. Items copied from your kit become independent trip entries.</p></div></li>
+<li data-howto-step="3"><span class="step-no" aria-hidden="true">03</span><div><h3>Review one possible move</h3><p>Once all weights are known and every item is assigned, request a single-move preview. It can move one whole, unlocked, unchecked item line from a bag above its target to another bag without putting that bag above its target. Review the before-and-after estimates, then apply or cancel.</p></div></li>
+<li data-howto-step="4"><span class="step-no" aria-hidden="true">04</span><div><h3>Pack first, then record the scale</h3><p>Check each line only when its full quantity is packed or reviewed. Weigh the bag on your own scale and enter the reading manually. Later plan changes mark earlier readings out of date, so record the final weighing after packing checks.</p></div></li>
+<li data-howto-step="5"><span class="step-no" aria-hidden="true">05</span><div><h3>Keep the history and take a copy</h3><p>Confirm the start of return review to freeze the complete outbound record. The return plan starts with checks cleared and no weighings. Export a readable text checklist or a JSON trip backup; import a valid JSON file through a preview to add a new trip without replacing an existing one.</p></div></li></ol></section>
+<section class="section" id="weights" aria-labelledby="weight-title"><div class="section-heading"><p class="section-index">02 / Weight records</p><div><h2 id="weight-title">A number should tell you where it came from.</h2><p>The list estimate includes empty-bag weight plus quantity × weight per item. A scale reading is a separate number you enter yourself.</p></div></div><div class="weight-panel"><p class="column-label">ILLUSTRATIVE CALCULATION — NOT AN APP SCREENSHOT</p><h3>A complete list can be added up.</h3><dl class="calculation"><div><dt>Empty bag</dt><dd>1.0 kg</dd></div><div><dt>2 items × 1.5 kg</dt><dd>3.0 kg</dd></div><div><dt>List estimate</dt><dd>4.0 kg</dd></div></dl><p class="example-note">This example explains the arithmetic only. If either the empty-bag weight or an item weight is missing, BagLedger shows a known subtotal and unknown count instead of treating the missing value as zero.</p></div><div class="weight-notes"><div><h3>Unknown stays unknown</h3><p>A bag with missing weights does not receive a complete estimate. An unassigned line remains visible as unfinished work. Complete weights and assignments before asking for a move.</p></div><div><h3>A change means a fresh check</h3><p>Changing the plan, packing checks, or locks makes older scale readings out of date. The earlier reading remains in the record; it is not treated as a current check. Undoing a move does not make an old reading current again.</p></div></div><p class="caution">BagLedger does not weigh luggage, check airline policies, or confirm permission to carry an item. Use your own scale and verify the carrier’s current rules separately.</p></section>
+<section class="section app-gallery" id="in-the-app" aria-labelledby="screens-title">
+<div class="section-heading"><p class="section-index">In the app</p><div><h2 id="screens-title">One trip, three moments.</h2><p>Follow a trip from an above-target estimate to a move preview and a separate return check.</p></div></div>
+<div class="screenshot-grid">
+<figure class="app-screen"><img src="assets/screens/en/01-balance.png" width="1206" height="2622" loading="lazy" decoding="async" alt="Outbound bag estimates in Coast weekend: Cabin 8 kg, 1 kg above its 7 kg target, and Hold 3 kg."><figcaption><span class="screen-index">01 / List estimate</span><h3>See what needs a second look.</h3><p>Cabin is estimated at 8 kg against a personal 7 kg target. A scale reading has not been recorded.</p></figcaption></figure>
+<figure class="app-screen"><img src="assets/screens/en/02-preview.png" width="1206" height="2622" loading="lazy" decoding="async" alt="Move preview for Books ×2 from Cabin to Hold, showing Cabin from 8 to 1 kg and Hold from 3 to 10 kg."><figcaption><span class="screen-index">02 / Move preview</span><h3>Review before moving.</h3><p>The Books ×2 line moves from Cabin to Hold in the preview. The estimates change from 8 to 1 kg and 3 to 10 kg; total above target falls from 1 kg to 0 kg.</p></figcaption></figure>
+<figure class="app-screen"><img src="assets/screens/en/03-return-review.png" width="1206" height="2622" loading="lazy" decoding="async" alt="Return review with all checks recorded and entries to export the checklist and JSON backup or view frozen outbound history."><figcaption><span class="screen-index">03 / Return review</span><h3>A fresh check for the way back.</h3><p>The return review shows all checks recorded, with export and frozen outbound history available from the same screen.</p></figcaption></figure>
+</div>
+</section>
+<section class="section" id="faq" aria-labelledby="faq-title"><div class="section-heading"><p class="section-index">03 / Questions</p><div><h2 id="faq-title">Before you pack.</h2><p>The useful details about weights, moves, records, and sharing.</p></div></div><div class="faq-list"><details open><summary>Does BagLedger weigh a bag or check airline limits?</summary><p>No. You enter estimated item and empty-bag weights, set your own targets, and manually record readings from your own scale. BagLedger does not measure weight, provide airline policy checks, or guarantee acceptance by a carrier.</p></details>
+<details open><summary>What happens when a weight is unknown?</summary><p>Unknown item or empty-bag weights stay unknown. The bag shows the known subtotal and missing-weight information instead of a complete estimate. Missing weights are not treated as zero or as confirmation that the bag meets its target.</p></details>
+<details open><summary>Is the suggested move the best packing plan?</summary><p>No. It is one feasible adjustment based on complete list estimates and assigned items. It moves only a whole item line that is unlocked and unchecked in the current stage, reduces the total weight above your targets, and keeps the destination bag within its target. If none is found, that does not prove that no better arrangement exists.</p></details>
+<details open><summary>Can I cancel or undo a move?</summary><p>Canceling the preview leaves the plan unchanged. You can undo only the most recently applied move while its undo is still valid. Another edit, a stage change, or restarting the app clears that undo. Editing after a preview also requires a new preview.</p></details>
+<details open><summary>Why is a scale reading marked out of date?</summary><p>A reading belongs to the plan as it was when recorded. A later change to the plan, packing checks, or locks marks it out of date. Its value and time remain visible, but it no longer counts as a current check. Finish packing checks and then weigh again.</p></details>
+<details open><summary>Does the return check change my outbound history?</summary><p>No. After you confirm the start of return review, BagLedger keeps a read-only snapshot of the complete outbound plan. The separate return plan begins with packing checks cleared and no scale readings. Later return edits do not change that snapshot.</p></details>
+<details open><summary>Do I need an account, and what does sharing include?</summary><p>No account is required. Trip records, your kit, and file import and export are handled on your device, with no ads or remote analytics in the app. Sharing a text checklist or JSON backup sends trip and item data to the destination you select. There is no cloud sync or live collaboration.</p></details>
+<details open><summary>What can I keep, export, and restore?</summary><p>You can keep up to 20 trips, with 8 bags and 200 item lines per stage. Separately, your kit can hold up to 200 items. Each line has a quantity of 1 to 100; checking it confirms the whole quantity. Text export is for reading or handoff. A valid BagLedger JSON backup, up to 2 MiB, can be previewed and imported as a new trip, including outbound history when present.</p></details></div></section>
+<section class="section" id="support" aria-labelledby="support-title"><div class="support-grid"><p class="section-index">04 / Support</p><div><h2 id="support-title">A clear record helps us help you.</h2><p>For a question or a problem, email the app version, device model, and the steps that led to it. If saving fails, keep the original local file and the error message; avoid deleting the app before keeping an external copy of your exported records.</p><a class="support-link" href="mailto:shuitian13@gmail.com">shuitian13@gmail.com</a><p class="fine">Email is voluntary. Only attach trip files if you want to share their contents with support. Do not include information you prefer to keep private.</p><p class="fine">iOS 17+ · iPhone / iPad · g / kg / lb</p></div></div></section>
+</main>
+<footer class="wrap footer"><p>© 2026 BagLedger · Packing plans. Personal targets. Local records.</p><div class="footer-links"><a href="privacy.html">Privacy policy</a><a href="mailto:shuitian13@gmail.com">Support</a></div></footer>
+</body>
+</html>

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://shuitian23-bot.github.io/bagledger-support/sitemap.xml
